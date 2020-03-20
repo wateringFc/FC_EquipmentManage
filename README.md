@@ -1,2 +1,2 @@
 # FC_EquipmentManage
-一个练习的swift项目
+swift项目练习
