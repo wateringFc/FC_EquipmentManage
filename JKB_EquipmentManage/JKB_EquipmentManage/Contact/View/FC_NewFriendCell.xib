@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="FC_NewFriendCell" customModule="JKB_EquipmentManage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_icn_newfred" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fde-RC-K8H">
+                        <rect key="frame" x="15" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="a6h-y6-t6S"/>
+                            <constraint firstAttribute="width" constant="40" id="rc9-w3-cCK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsI-zL-pzt">
+                        <rect key="frame" x="70" y="10" width="36" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="企业：健康宝互联网公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYK-GS-4rb">
+                        <rect key="frame" x="70" y="34" width="146" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcs-Wz-rLI">
+                        <rect key="frame" x="258" y="15" width="47" height="30"/>
+                        <color key="backgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="47" id="ZMK-cw-1Qz"/>
+                            <constraint firstAttribute="height" constant="30" id="bQn-ew-w5P"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="查看">
+                            <color key="titleColor" red="0.29411764705882354" green="0.46666666666666667" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已添加" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6Q-SF-kI5">
+                        <rect key="frame" x="265" y="22" width="40" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fde-RC-K8H" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="3lL-U1-i78"/>
+                    <constraint firstItem="sYK-GS-4rb" firstAttribute="bottom" secondItem="Fde-RC-K8H" secondAttribute="bottom" id="57F-lZ-d2T"/>
+                    <constraint firstItem="Hcs-Wz-rLI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ChN-6h-oR0"/>
+                    <constraint firstAttribute="trailing" secondItem="z6Q-SF-kI5" secondAttribute="trailing" constant="15" id="Df6-q8-RjX"/>
+                    <constraint firstItem="Fde-RC-K8H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Gdd-an-hRe"/>
+                    <constraint firstItem="WsI-zL-pzt" firstAttribute="leading" secondItem="Fde-RC-K8H" secondAttribute="trailing" constant="15" id="KcR-8k-UVf"/>
+                    <constraint firstAttribute="trailing" secondItem="Hcs-Wz-rLI" secondAttribute="trailing" constant="15" id="V0R-DI-YKi"/>
+                    <constraint firstItem="sYK-GS-4rb" firstAttribute="leading" secondItem="WsI-zL-pzt" secondAttribute="leading" id="YxC-o8-uAW"/>
+                    <constraint firstItem="WsI-zL-pzt" firstAttribute="top" secondItem="Fde-RC-K8H" secondAttribute="top" id="fHt-BH-udb"/>
+                    <constraint firstItem="z6Q-SF-kI5" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hzB-aj-NaD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkBut" destination="Hcs-Wz-rLI" id="TQv-yT-JoT"/>
+                <outlet property="companyLb" destination="sYK-GS-4rb" id="uqa-MA-qcM"/>
+                <outlet property="hasAddLb" destination="z6Q-SF-kI5" id="AZP-8K-2bN"/>
+                <outlet property="headerImag" destination="Fde-RC-K8H" id="hCK-Er-d4F"/>
+                <outlet property="nameLb" destination="WsI-zL-pzt" id="Q3r-YS-VbY"/>
+            </connections>
+            <point key="canvasLocation" x="-94" y="48"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chat_icn_newfred" width="40" height="40"/>
+    </resources>
+</document>

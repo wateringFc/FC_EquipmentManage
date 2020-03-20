@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (4.6.0)
+  - CDAlertView (0.9.0)
+  - HandyJSON (5.0.0)
+  - IBAnimatable (5.0.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - Kingfisher (4.6.1)
+  - MJRefresh (3.1.15.1)
+  - Moya (10.0.1):
+    - Moya/Core (= 10.0.1)
+  - Moya/Core (10.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - RxCocoa (4.1.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.1)
+  - SnapKit (4.0.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+  - SVProgressHUD (2.2.2)
+  - SwiftyJSON (4.0.0)
+  - TextFieldEffects (1.4.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CDAlertView
+  - HandyJSON (~> 5.0.0)
+  - IBAnimatable
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - SQLite.swift
+  - SVProgressHUD
+  - SwiftyJSON
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CDAlertView
+    - HandyJSON
+    - IBAnimatable
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SQLite.swift
+    - SVProgressHUD
+    - SwiftyJSON
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  CDAlertView: 422a3b49b6b015558d84f1cd7c55f409810b8b22
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
+  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+
+PODFILE CHECKSUM: 74781a4ed508da04bb5fe11e83930d185d466192
+
+COCOAPODS: 1.9.0

@@ -1,0 +1,29 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'JKB_EquipmentManage' do
+    use_frameworks!
+    pod 'Alamofire'     #网络请求
+    pod 'SwiftyJSON'    #json转换
+    pod 'Kingfisher'    #图片加载
+    pod 'SVProgressHUD' #提示
+    pod 'SnapKit'       #布局
+    pod 'MJRefresh'     #刷新
+    pod 'RxSwift'       #响应式编程
+    pod 'RxCocoa'       #响应式编程
+    pod 'IBAnimatable'  #动画库
+    pod 'SQLite.swift'  #数据库
+    pod 'TextFieldEffects' #输入文字浮动
+    pod 'IQKeyboardManagerSwift' #键盘管理工具
+    pod 'Moya'          #网络封装工具
+    pod 'HandyJSON', '~> 5.0.0'
+    pod 'CDAlertView'
+
+end
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '4.0'
+        end
+    end
+end
